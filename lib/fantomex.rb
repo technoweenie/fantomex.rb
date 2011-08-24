@@ -1,4 +1,6 @@
 module Fantomex
+  VERSION = "0.0.1"
+
   # Represents a single queued message.
   class Message
     attr_accessor :id, :data, :retries, :run_at
